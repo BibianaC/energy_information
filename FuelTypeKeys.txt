@@ -1,0 +1,19 @@
+SD Settlement Date
+SP Settlement Period
+AT Recorded date
+
+IC This fuel type is an interconnect
+
+CCGT Open Cycle Gas Tubine (Gas)
+OCGT Closed Cycle Gas Tubine (Gas)
+OIL Oil
+COAL Coal
+NUCLEAR Nuclear
+WIND Wind
+PS Pumped Storage (Other)
+NPSHYD Hydroelectric
+OTHER Other
+INTFR Interconnect to and from France
+INTIRL Interconnect to and from Ireland
+INTNED Interconnect to and from The Netherlands
+INTEW East-West Interconnect (To and from Ireland)
