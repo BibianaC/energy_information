@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Tempus Energy</title>
+  </head>
+
+  <body>
+    <main>
+      <form id="report" method="post">
+        <select id="selectDate", onclick="updateSPMenu();">
+          <option>Choose a date</option>
+        </select>
+        <select id="selectSP", onclick="report();">
+          <option>Choose a settlement period time</option>
+        </select>
+      </form>
+      <ul id="report">
+      </ul>
+    </main>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/interface.js"></script>
+  </body>
+</html>
