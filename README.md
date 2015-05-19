@@ -6,13 +6,13 @@ Given the PowerGenByFuelType XML file (standard file for the energy industry) sh
 
 The challenge is to produce a single web page which will allow a user to lookup a date and a settlement period, then view a report of how much energy was produced by the following class of fuel type, both the absolute values and the percentage of total generation that fuel type accounts for.
 
-• Coal
-• Gas
-• Oil
-• Hydroelectric
-• Nuclear
-• Wind
-• Interconnect
+- Coal
+- Gas
+- Oil
+- Hydroelectric
+- Nuclear
+- Wind
+- Interconnect
 
 The last one, “interconnect", are the cables which run into Britain from other countries; the others are better known. In the XML the data is actually more granular than this list of fuel type and time period, so the data will need some modification.
 
