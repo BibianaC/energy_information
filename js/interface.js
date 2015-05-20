@@ -26,7 +26,6 @@ function updateSPMenu() {
       var option = document.createElement("option");
       option.textContent = sp; //SPHash[sp]['recorded date'];
       option.textValue = SPHash[sp]['recorded date'];
-      console.log("foo: " +  sp);
       SPMenu.appendChild(option);
     }
   });
@@ -38,9 +37,6 @@ function report() {
   var reportPara = document.getElementById("report");
   $.getJSON(jsonURL, function(nestedHash) {
     var fuelTypeHash = nestedHash[selectedDate][selectedSP];
-    console.log(selectedDate);
-    console.log(selectedSP);
-    console.log(fuelTypeHash);
     $.each(fuelTypeHash, function(fuelType, fuelHash) {
       var li = document.createElement('li');
       li.textContent = fuelType + ": " + fuelHash;
